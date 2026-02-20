@@ -4,6 +4,6 @@ df = pd.DataFrame(data)
 print("Продажі по містах:")
 print(df)
 print("Середнє значення:", round(df["sales"].mean(), 2))
-print("Найвищі продажі:" , round(df['sales'].max(), 2))
+print("Найвищі продажі:" , round(df['sales'].max(), 2) )
 
 
