@@ -3,4 +3,7 @@ data = {"city": ["Kyiv", "Lviv", "Odesa"], "sales": [1200, 950, 500]}
 df = pd.DataFrame(data)
 print("Продажі по містах:")
 print(df)
-print("Середнє значення:", df["sales"].mean())
+print("Середнє значення:", round(df["sales"].mean(), 2))
+print("Найвищі продажі:" , round(df['sales'].max(), 2))
+print('Найнижчі продажі:', round(df['sales'].min(), 2) )
+
